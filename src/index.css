@@ -89,6 +89,8 @@ a:hover{
 }
 .FloatingActionButtonZoom-root-1{
   width: 70% !important;
+  max-height: 100%;
+  word-wrap: break-word;
 }
 @media (max-width: 768px){
   .App-header{
@@ -119,7 +121,8 @@ a:hover{
     line-height: 10vh;
   }
   .FloatingActionButtonZoom-root-1{
-    width: 110% !important;
+    width: 100% !important;
+    font-size: 90%;
   }
 
 }

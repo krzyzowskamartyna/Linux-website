@@ -484,13 +484,13 @@ class FloatingActionButtonZoom extends React.Component {
               </TabContainer>
               <TabContainer dir={theme.direction}>
                 <div className="Bash">
-                  <i class="fas fa-terminal"></i> skrypt rozpoczyna się od ciągu <p>#!/bin/bash</p>
-                  <i class="fas fa-terminal"></i> skrypt może być wykonany na dwa sposoby:<br />
+                  <i className="fas fa-terminal"></i> skrypt rozpoczyna się od ciągu <p>#!/bin/bash</p>
+                  <i className="fas fa-terminal"></i> skrypt może być wykonany na dwa sposoby:<br />
                   <p> bash mojSkrypt.sh</p>
                   <p> ./mojSkrypt.sh</p> (po wcześniejszej zmianie praw dostępu) <br />
-              <i class="fas fa-terminal"></i> zmienna może być przypisywana w następujący sposób <p>zmienna=wartość</p>
-                  <i class="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />
-              <i class="fas fa-terminal"></i> Bash zapewnia również wiele typów pętli: <br />
+              <i className="fas fa-terminal"></i> zmienna może być przypisywana w następujący sposób <p>zmienna=wartość</p>
+                  <i className="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />
+              <i className="fas fa-terminal"></i> Bash zapewnia również wiele typów pętli: <br />
                   Pętla  for: <br />
                   <p> for ((warunek)) </p>
                   <p className="ten"> polecenia; </p>
@@ -506,7 +506,7 @@ class FloatingActionButtonZoom extends React.Component {
                   <p>do </p>
                   <p className="ten ">let x++; echo $x;</p>
                   <p>done</p>
-                  <i class="fas fa-terminal"></i> W Bashu można tworzyć również instrukcje warunkowe if ... then ... fi
+                  <i className="fas fa-terminal"></i> W Bashu można tworzyć również instrukcje warunkowe if ... then ... fi
               <p>if [warunek];</p>
                   <p>then</p>
                   <p className="ten ">polecenia;</p>
@@ -515,7 +515,7 @@ class FloatingActionButtonZoom extends React.Component {
                   <p>else</p>
                   <p className="ten ">polecenia</p>
                   <p>fi</p>
-                  <i class="fas fa-terminal"></i> Bash 3.0 posiada wbudowaną obsługę wyrażeń regularnych
+                  <i className="fas fa-terminal"></i> Bash 3.0 posiada wbudowaną obsługę wyrażeń regularnych
                 </div>
               </TabContainer>
         </SwipeableViews>
