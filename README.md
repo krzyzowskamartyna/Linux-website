@@ -1,4 +1,9 @@
 ## Linux Website
+
+All important information about Linux operating system. 
+
+Implemented with React.
+
 ## Available Scripts
 
 In the project directory, you can run:
