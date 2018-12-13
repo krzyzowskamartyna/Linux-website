@@ -4,6 +4,8 @@ All important information about Linux operating system.
 
 Implemented with React.
 
+##`npx create-react-app my-app`
+
 ## Available Scripts
 
 In the project directory, you can run:
