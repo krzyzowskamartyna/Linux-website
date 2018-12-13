@@ -1,14 +1,137 @@
-body {
+html,body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  max-width: 100vw;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color:   #161616
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App-header{
+  background: url(./desk.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; 
+}
+h1{
+  font-size: 310%;
+}
+.btn{
+  background:  #161616;
+  border: 1px solid #7c818f;
+  border-radius: 12px;
+  padding: 1%;
+  text-transform: uppercase;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color:  white;
+}
+a:visited, a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: #fffff0;
+}
+.AboutLinux{
+  padding: 3%;
+  text-align: left;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 1%;
+  
+}
+.AboutLinux h2{
+  text-align: center;
+}
+.foot{
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: #161616;
+  word-wrap: break-word;
+  white-space: pre-line;
+  color: white;
+  line-height: 40vh;
+
+}
+.commends{
+  padding:1%;
+ background: #f1f4f7;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+}
+.commends ul{
+  border: solid 0.5px #123456;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.up{
+  color: #123456;
+}
+.commends a,
+.commends p,
+.pinkClass p,
+.foot i{
+  color: #e7025f !important;
+}
+.FloatingActionButtonZoom-root-1{
+  width: 70% !important;
+}
+@media (max-width: 768px){
+  .App-header{
+    background:#f1f4f7;
+    width: 100%;
+    height:40vh;}
+    h1, h2{
+    font-size: 100%;
+  }
+ h3{
+    font-size:90%;
+}
+
+ .AboutLinux{
+    padding:0;
+    word-wrap: break-word;
+    white-space: pre-line;
+    margin: 0;
+    max-height: 100vh;
+  }
+  .commends ul{
+    border: solid 0.5px #123456;
+    margin: 0;
+  }
+  .foot{
+    font-size: 50%;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  .FloatingActionButtonZoom-root-1{
+    width: 110% !important;
+  }
+
+}
+
+.ten{
+  text-indent: 10%
+}
+.Bash{
+  text-align: left
+}
+.link{
+  background: #f1f4f7;
+  margin:0;
+  padding: 2%
 }

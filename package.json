@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.6.2",
+    "@material-ui/icons": "^3.0.1",
+    "classnames": "^2.2.6",
+    "material-ui": "^0.20.2",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-responsive-navbar": "^1.0.11",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-show-more": "^2.0.0",
+    "react-swipeable-views": "^0.13.0",
+    "react-switch": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
