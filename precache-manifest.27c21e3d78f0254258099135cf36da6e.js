@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/Linux-website/static/js/runtime~main.a5f679bf.js"
   },
   {
-    "revision": "01fa28c92e661d64fa70",
-    "url": "/Linux-website/static/js/main.01fa28c9.chunk.js"
+    "revision": "6040f84783b12e622956",
+    "url": "/Linux-website/static/js/main.6040f847.chunk.js"
   },
   {
     "revision": "b04ec182c701087f3ae3",
     "url": "/Linux-website/static/js/1.b04ec182.chunk.js"
   },
   {
-    "revision": "01fa28c92e661d64fa70",
-    "url": "/Linux-website/static/css/main.e28e1ee0.chunk.css"
+    "revision": "6040f84783b12e622956",
+    "url": "/Linux-website/static/css/main.c7637caa.chunk.css"
   },
   {
-    "revision": "8070b866fe816d17ba08a9298fe5f5f8",
+    "revision": "6e68fb9193b6b2c409b7c4b7ae4d1c25",
     "url": "/Linux-website/index.html"
   }
 ];
