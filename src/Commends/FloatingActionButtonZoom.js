@@ -489,32 +489,17 @@ class FloatingActionButtonZoom extends React.Component {
                   <p> bash mojSkrypt.sh</p>
                   <p> ./mojSkrypt.sh</p> (po wcześniejszej zmianie praw dostępu) <br />
               <i className="fas fa-terminal"></i> zmienna może być przypisywana w następujący sposób <p>zmienna=wartość</p>
-                  <i className="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />
+              a korzysta się z niej używając cymbolu $
+              <p>echo $zmienna</p>
+              <i className="fas fa-terminal"></i> Istnieją również tak zwane zmienne specjalne, przykładowo $0 oznacza nazwę bierzącego skrypu lub powłoki, a $1..$9 to parametry przekazywane do skrypu
+                  <i className="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />  <br />
               <i className="fas fa-terminal"></i> Bash zapewnia również wiele typów pętli: <br />
-                  Pętla  for: <br />
-                  <p> for ((warunek)) </p>
-                  <p className="ten"> polecenia; </p>
-                  <p>done</p>
-                  Pętla while:
-                  <p> while [warunek] </p>
-                  <p> do </p>
-                  <p className="ten"> polecenia;</p>
-                  <p>done</p>
-                  Pętla until:
-            <p>x=0;</p>
-                  <p>until [ $x -eq 9];</p>
-                  <p>do </p>
-                  <p className="ten ">let x++; echo $x;</p>
-                  <p>done</p>
-                  <i className="fas fa-terminal"></i> W Bashu można tworzyć również instrukcje warunkowe if ... then ... fi
-              <p>if [warunek];</p>
-                  <p>then</p>
-                  <p className="ten ">polecenia;</p>
-                  <p>elif [warunek]; then</p>
-                  <p className="ten ">polecenia</p>
-                  <p>else</p>
-                  <p className="ten ">polecenia</p>
-                  <p>fi</p>
+                  - Pętla for <br />
+                  - Pętla while <br />
+                  - Pętla until <br />  
+Ich proste zastosowanie znajduje się w przykładach poniżej <br />  <br />
+                  <i className="fas fa-terminal"></i> W Bashu można tworzyć również instrukcje warunkowe takie jak: if ... then ... fi,  czy case  <br /> <br />
+              
                   <i className="fas fa-terminal"></i> Bash 3.0 posiada wbudowaną obsługę wyrażeń regularnych
                 </div>
               </TabContainer>

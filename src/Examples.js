@@ -1,77 +1,65 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import Modal from '@material-ui/core/Modal';
-import Button from '@material-ui/core/Button';
-
-function rand() {
-    return Math.round(Math.random() * 20) - 10;
-}
-
-function getModalStyle() {
-    const top = 50 + rand();
-    const left = 50 + rand();
-
-    return {
-        top: `${top}%`,
-        left: `${left}%`,
-        transform: `translate(-${top}%, -${left}%)`,
-    };
-}
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const styles = theme => ({
-    paper: {
-        position: 'absolute',
-        width: theme.spacing.unit * 150,
-        backgroundColor: theme.palette.background.paper,
-        boxShadow: theme.shadows[5],
-        padding: theme.spacing.unit * 4,
+    root: {
+        width: '90%',
+        padding: '4%',
+    },
+    heading: {
+        fontSize: theme.typography.pxToRem(15),
+        fontWeight: theme.typography.fontWeightRegular,
     },
 });
 
-class SimpleModal extends React.Component {
-    state = {
-        open: false,
-    };
-
-    handleOpen = () => {
-        this.setState({ open: true });
-    };
-
-    handleClose = () => {
-        this.setState({ open: false });
-    };
-
-    render() {
-        const { classes } = this.props;
-
-        return (
-            <div>
-                <h2>Kilka przykładów</h2>
-                <Typography gutterBottom></Typography>
-                <Button onClick={this.handleOpen}>Przykład 1</Button>
-                <Modal
-                    aria-labelledby="simple-modal-title"
-                    aria-describedby="simple-modal-description"
-                    open={this.state.open}
-                    onClose={this.handleClose}
-                >
-                    <div style={getModalStyle()} className={classes.paper}>
-                        <Typography id="modal-title">
-
+function SimpleExpansionPanel(props) {
+    const { classes } = props;
+    return (
+        <div id="examples">
+            <div className={classes.root}>
+                <h2>Kilka przykładów <i class="fas fa-laptop-code"></i> </h2>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography className={classes.heading}>Przykłady komend I</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <img className="modal" src={require("./plik1.PNG")} alt="example" />
                         </Typography>
-                    </div>
-                </Modal>
-            </div>
-        );
-    }
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography className={classes.heading}>Przykłady komend I</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <img className="modal" src={require("./plik2.PNG")} alt="example2" />
+                        </Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                        <Typography className={classes.heading}> Pętle </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <Typography>
+                            <img className="modal" src={require("./loops.PNG")} alt="loops" /></Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel >
+            </div >
+        </div>
+    );
 }
 
-SimpleModal.propTypes = {
+SimpleExpansionPanel.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-const SimpleModalWrapped = withStyles(styles)(SimpleModal);
-
-export default SimpleModalWrapped;
+export default withStyles(styles)(SimpleExpansionPanel);

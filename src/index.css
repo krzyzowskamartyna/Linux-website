@@ -87,41 +87,42 @@ a:hover{
 .foot i{
   color: #e7025f !important;
 }
-.FloatingActionButtonZoom-root-1{
+.FloatingActionButtonZoom-root-1,
+.jss1{
   width: 70% !important;
-  max-height: 100%;
   word-wrap: break-word;
 }
 @media (max-width: 768px){
   .App-header{
     background:#f1f4f7;
     width: 100%;
-    height:40vh;}
+  }
     h1, h2{
-    font-size: 100%;
+    font-size: 200%;
   }
  h3{
     font-size:90%;
 }
 
  .AboutLinux{
-    padding:0;
+    padding:1%;
     word-wrap: break-word;
     white-space: pre-line;
-    margin: 0;
-    max-height: 100vh;
+    margin: 2%;
+    min-height: 10vh;
   }
   .commends ul{
     border: solid 0.5px #123456;
-    margin: 0;
+    margin: 2%;
   }
   .foot{
     font-size: 50%;
     height: 10vh;
     line-height: 10vh;
   }
-  .FloatingActionButtonZoom-root-1{
-    width: 100% !important;
+  .FloatingActionButtonZoom-root-1,
+  .jss1{
+    width: 90% !important;
     font-size: 90%;
   }
 
@@ -137,4 +138,13 @@ a:hover{
   background: #f1f4f7;
   margin:0;
   padding: 2%
+}
+.modal{
+  width: 90%;
+}
+#container{
+  margin: 0;
+  display: flex;
+  justify-items: center;
+  text-align: center;
 }

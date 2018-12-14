@@ -18,13 +18,7 @@ const toolbar = props => (
                         <a href="#commend">Najważniejsze komendy</a>
                     </li>
                     <li>
-                        <a href="#About">Przykłady</a>
-                    </li>
-                    <li>
-                        <a href="#About">Test</a>
-                    </li>
-                    <li>
-                        <a href="#About">Bash</a>
+                        <a href="examples">Przykłady</a>
                     </li>
                 </ul>
             </div>
