@@ -92,6 +92,9 @@ a:hover{
     h1, h2{
     font-size: 200%;
   }
+  h3{
+    margin:0;
+  }
 .inside,
 .heading{
   text-align:  left;
@@ -128,7 +131,8 @@ a:hover{
 .link{
   background: #f1f4f7;
   margin:0;
-  padding: 2%
+  padding: 2%;
+  text-align: center;
 }
 .modal{
   width: 90%;
