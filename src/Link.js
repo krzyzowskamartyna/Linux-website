@@ -6,7 +6,7 @@ class Link extends Component {
             <div className="link">
                 <h2>Zobacz również <i className="fas fa-external-link-alt"></i>  </h2>
                 <h3> link do quizch1 <br />
-                    Link do .....</h3>
+                    ...........</h3>
             </div>
         )
     }

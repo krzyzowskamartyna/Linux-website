@@ -86,13 +86,14 @@ a:hover{
 @media (max-width: 768px){
   .App-header{
     background:#f1f4f7;
-    width: 100%;
+    width: 90%;
   }
     h1, h2{
     font-size: 200%;
   }
  h3{
     margin: 0;
+    text-align: justify; 
 }
 .inside,
 .heading{

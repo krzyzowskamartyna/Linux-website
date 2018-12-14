@@ -444,7 +444,7 @@ class FloatingActionButtonZoom extends React.Component {
               a korzysta się z niej używając symbolu $
               <p>echo $zmienna</p>
               <i className="fas fa-terminal"></i> Istnieją również tak zwane zmienne specjalne, przykładowo $0 oznacza nazwę bierzącego skrypu lub powłoki, a $1..$9 to parametry przekazywane do skrypu
-                  <i className="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />  <br />
+              <br />    <i className="fas fa-terminal"></i> środowisko powłoki Bash umożliwia wykonywanie podstawowych operacji arytmetycznych <br />  <br />
               <i className="fas fa-terminal"></i> Bash zapewnia również wiele typów pętli: <br />
               - Pętla for <br />
               - Pętla while <br />

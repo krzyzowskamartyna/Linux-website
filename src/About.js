@@ -10,7 +10,7 @@ class About extends Component {
               kodu źródłowego i może go modyfikować. <br /><br />
                     <i className="fas fa-check"></i> Jest najpopularnieszy na świecie. W dużej mierze za sprawą Androida, którego jądro
               jest linuxowe.<br /><br />
-                    <i className="fas fa-check"></i> Popularny macOS jest uniksopodonym systemem.<br /><br />
+                    <i className="fas fa-check"></i> Popularny macOS jest uniksopodobnym systemem.<br /><br />
                     <i className="fas fa-check"></i> Jest stabilny (w odróżnieniu od Windowsa) oraz darmowy. <br /><br />
                     <i className="fas fa-check"></i> Dzięki stabilności jest stosowany jako system operacyjny większości serwerów na
               świecie. <br /><br />
