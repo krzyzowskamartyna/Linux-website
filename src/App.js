@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Toolbar from './navComponents/Toolbar/Toolbar';
 import SideDrawer from './navComponents/SideDrawer/SideDrawer';
 import Backdrop from './navComponents/Backdrop/Backdrop';
-import Commend from './Commends/Commends';
+import Command from './Commands/Commands';
 import SimpleExpansionPanel from './Examples';
 import Link from './Link';
 
@@ -42,7 +42,7 @@ class App extends Component {
           </div>
         </div>
         <About />
-        <Commend />
+        <Command />
         <SimpleExpansionPanel />
         <Link />
         <Footer />

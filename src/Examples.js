@@ -23,7 +23,7 @@ function SimpleExpansionPanel(props) {
     return (
         <div id="examples">
             <div className={classes.root}>
-                <h2>Kilka przykładów <i class="fas fa-laptop-code"></i> </h2>
+                <h2>Kilka przykładów <i className="fas fa-laptop-code"></i> </h2>
                 <ExpansionPanel>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                         <Typography className={classes.heading}>Przykłady komend I</Typography>
@@ -36,7 +36,7 @@ function SimpleExpansionPanel(props) {
                 </ExpansionPanel>
                 <ExpansionPanel>
                     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                        <Typography className={classes.heading}>Przykłady komend I</Typography>
+                        <Typography className={classes.heading}>Przykłady komend II</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <Typography>

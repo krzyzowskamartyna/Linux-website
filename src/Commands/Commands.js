@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Demo from './FloatingActionButtonZoom';
-class Commend extends Component {
+class Command extends Component {
     render() {
         return (
-            <div className="commends" id="commend">
+            <div className="commands" id="command">
                 <h2>Najważniejsze rzeczy do opanowania <i className="far fa-list-alt"></i></h2>
                 <Demo />
             </div >
@@ -11,4 +11,4 @@ class Commend extends Component {
     }
 }
 
-export default Commend;
+export default Command;
