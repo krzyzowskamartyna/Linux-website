@@ -5,7 +5,7 @@ class Link extends Component {
         return (
             <div className="link">
                 <h2>Zobacz również <i className="fas fa-external-link-alt"></i>  </h2>
-                <h3> link do quizch1 <br />
+                <h3> <a href='https://krzyzowskamartyna.github.io/ResearchWeb/dist/index.html' target="_blank" rel="noopener noreferrer">Intermolecular Interactions UŚ</a> <br />
                     ...........</h3>
             </div>
         )

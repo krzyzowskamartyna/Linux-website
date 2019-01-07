@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="foot">
-                <p> 2018 &copy; Martyna Krzyżowska <i className="fas fa-envelope-square"> </i>  Kontakt do mnie </p>
+                <p> 2018-2019 &copy; Martyna Krzyżowska </p>
             </div>
         )
     }

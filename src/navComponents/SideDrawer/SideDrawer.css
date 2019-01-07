@@ -15,11 +15,13 @@
     transform:  translateX(0);
 }
 .side-drawer ul{
+    padding: 0;
     height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    word-wrap: break-word;
 }
 .side-drawer li{
     margin: 0.5rem 0;

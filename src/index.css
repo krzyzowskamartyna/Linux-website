@@ -46,7 +46,6 @@ a:hover{
 .AboutLinux{
   padding: 3%;
   text-align: left;
-  min-height: 100vh;
   max-width: 100%;
   margin: 1%;
   
@@ -116,7 +115,7 @@ a:hover{
   .FloatingActionButtonZoom-root-1,
   .jss1{
     width: 90% !important;
-    font-size: 90%;
+
     white-space: pre-line !important;
   }
 
@@ -133,6 +132,13 @@ a:hover{
   margin:0;
   padding: 2%;
   text-align: center;
+}
+.link a{
+  color: #161616;
+}
+.link a:hover{
+  color:#e7025f;
+  transition: 1s
 }
 .modal{
   width: 90%;
