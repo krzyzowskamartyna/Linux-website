@@ -1,7 +1,7 @@
 {
-  "main.css": "/Linux-website/static/css/main.2aa9390a.chunk.css",
-  "main.js": "/Linux-website/static/js/main.8da130b0.chunk.js",
-  "main.js.map": "/Linux-website/static/js/main.8da130b0.chunk.js.map",
+  "main.css": "/Linux-website/static/css/main.1a7b9c27.chunk.css",
+  "main.js": "/Linux-website/static/js/main.7406b284.chunk.js",
+  "main.js.map": "/Linux-website/static/js/main.7406b284.chunk.js.map",
   "static/js/1.b04ec182.chunk.js": "/Linux-website/static/js/1.b04ec182.chunk.js",
   "static/js/1.b04ec182.chunk.js.map": "/Linux-website/static/js/1.b04ec182.chunk.js.map",
   "runtime~main.js": "/Linux-website/static/js/runtime~main.a5f679bf.js",
@@ -10,8 +10,8 @@
   "static/media/plik2.PNG": "/Linux-website/static/media/plik2.73b2abb6.PNG",
   "static/media/loops.PNG": "/Linux-website/static/media/loops.72e59fdb.PNG",
   "static/media/plik1.PNG": "/Linux-website/static/media/plik1.8fee6006.PNG",
-  "static/css/main.2aa9390a.chunk.css.map": "/Linux-website/static/css/main.2aa9390a.chunk.css.map",
+  "static/css/main.1a7b9c27.chunk.css.map": "/Linux-website/static/css/main.1a7b9c27.chunk.css.map",
   "index.html": "/Linux-website/index.html",
-  "precache-manifest.50221d9c253a25751fbe8eaa56013b9c.js": "/Linux-website/precache-manifest.50221d9c253a25751fbe8eaa56013b9c.js",
+  "precache-manifest.cddab3358559f7d3a42982d39baaa133.js": "/Linux-website/precache-manifest.cddab3358559f7d3a42982d39baaa133.js",
   "service-worker.js": "/Linux-website/service-worker.js"
 }
