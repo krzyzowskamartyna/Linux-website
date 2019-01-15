@@ -73,16 +73,16 @@ class FloatingActionButtonZoom extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
-            {linuxData.map((linux, key) => (
-              <ExpansionPanel>
+            {linuxData.map((linux, i) => (
+              <ExpansionPanel key={i}>
                 <ExpansionPanelSummary expandIcon={<i className="far fa-question-circle"></i>}
-                  key={linux.id}
+                  key={linux.heading}
                   className="heading"
                 >
                   {linux.heading}
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails
-                  key={key}
+                  key={i}
                   className="inside"
                 >
                   {linux.inside} <br />
@@ -95,8 +95,8 @@ class FloatingActionButtonZoom extends React.Component {
 
           </TabContainer>
           <TabContainer dir={theme.direction}>
-            {vimData.map((vim, key) => (
-              <ExpansionPanel>
+            {vimData.map((vim, i) => (
+              <ExpansionPanel key={i}>
                 <ExpansionPanelSummary expandIcon={<i className="far fa-question-circle"></i>}
                   key={vim.id}
                   className="heading"
@@ -104,10 +104,10 @@ class FloatingActionButtonZoom extends React.Component {
                   {vim.heading}
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails
-                  key={vim.id}
+                  key={vim}
                   className="inside"
                 >
-                  <ul key={key}>
+                  <ul>
                     {vim.inside} <br />
                     {vim.inside2} <br />
                     {vim.inside3} <br />
