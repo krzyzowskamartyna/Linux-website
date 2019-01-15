@@ -92,11 +92,8 @@ a:hover{
 .inside,
 .heading{
   text-align:  left;
-  width: 90%;
-  padding: 0;
-  display: flex;
-  align-self: flex-start
 }
+
  .AboutLinux{
     padding:1%;
     word-wrap: break-word ;

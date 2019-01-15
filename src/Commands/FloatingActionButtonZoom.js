@@ -16,7 +16,7 @@ function TabContainer(props) {
   const { children, dir } = props;
 
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+    <Typography component="div" dir={dir} style={{ padding: 8 * 2 }}>
       {children}
     </Typography>
   );
@@ -82,16 +82,13 @@ class FloatingActionButtonZoom extends React.Component {
                   {linux.heading}
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails
-                  key={linux.id}
+                  key={key}
                   className="inside"
                 >
-
                   {linux.inside} <br />
                   {linux.inside2} <br />
                   {linux.inside3} <br />
                   {linux.inside4}
-
-
                 </ExpansionPanelDetails>
               </ExpansionPanel>
             ))}
@@ -116,14 +113,10 @@ class FloatingActionButtonZoom extends React.Component {
                     {vim.inside3} <br />
                     {vim.inside4}
                   </ul>
-
                 </ExpansionPanelDetails>
               </ExpansionPanel>
             ))}
-
           </TabContainer>
-
-
           <TabContainer dir={theme.direction}>
             <div className="Bash">
               <i className="fas fa-terminal"></i> skrypt rozpoczyna się od ciągu <p>#!/bin/bash </p>
@@ -150,10 +143,8 @@ class FloatingActionButtonZoom extends React.Component {
     );
   }
 }
-
 FloatingActionButtonZoom.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired,
 };
-
 export default withStyles(styles, { withTheme: true })(FloatingActionButtonZoom);
