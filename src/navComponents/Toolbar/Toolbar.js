@@ -18,7 +18,7 @@ const toolbar = props => (
                         <a href="#command">Najważniejsze komendy</a>
                     </li>
                     <li>
-                        <a href="examples">Przykłady</a>
+                        <a href="#examples">Przykłady</a>
                     </li>
                 </ul>
             </div>
