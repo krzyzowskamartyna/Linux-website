@@ -2,6 +2,9 @@
 
 All important information about Linux operating system. 
 
+## Live
+https://krzyzowskamartyna.github.io/Linux-website/
+
 Implemented with React.
 ### `npx create-react-app my-app`
 
