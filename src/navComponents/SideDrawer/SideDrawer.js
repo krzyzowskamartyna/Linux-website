@@ -14,7 +14,7 @@ const sideDrawer = props => {
                     <a href="#About">Dlaczego Linux</a>
                 </li>
                 <li>
-                    <a href="#commend">Najważniejsze komendy</a>
+                    <a href="#command">Najważniejsze komendy</a>
                 </li>
                 <li>
                     <a href="#examples">Przykłady</a>
