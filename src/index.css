@@ -54,7 +54,6 @@ a:hover{
   text-align: center;
 }
 .foot{
-  height: 40vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -62,7 +61,7 @@ a:hover{
   word-wrap: break-word;
   white-space: pre-line;
   color: white;
-  line-height: 40vh;
+  line-height: 20vh;
 
 }
 .commands{
@@ -73,10 +72,6 @@ a:hover{
  align-items: center;
 }
 
-.commands a,
-.foot i{
-  color: #e7025f !important;
-}
 .FloatingActionButtonZoom-root-1,
 .jss1{
   width: 70% !important;
@@ -97,6 +92,10 @@ a:hover{
 .inside,
 .heading{
   text-align:  left;
+  width: 90%;
+  padding: 0;
+  display: flex;
+  align-self: flex-start
 }
  .AboutLinux{
     padding:1%;
@@ -115,7 +114,6 @@ a:hover{
   .FloatingActionButtonZoom-root-1,
   .jss1{
     width: 90% !important;
-
     white-space: pre-line !important;
   }
 
